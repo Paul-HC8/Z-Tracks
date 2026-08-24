@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Expense Tracker",
+    "slug": "expense-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0F1115",
+    "scheme": "expensetracker",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourname.expensetracker",
+      "entitlements": {
+        "com.apple.security.application-groups": ["group.com.yourname.expensetracker"]
+      }
+    },
+    "android": {
+      "package": "com.yourname.expensetracker",
+      "backgroundColor": "#0F1115"
+    }
+  }
+}
